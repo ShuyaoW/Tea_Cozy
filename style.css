@@ -1,0 +1,125 @@
+ body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+} 
+
+header{
+    background-color: black;
+    display: inline-flexbox;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    top: 0;
+}
+
+h2,h4{
+    text-align: center;
+}
+
+
+.theme{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: 700px 1200px;
+    align-items: center;
+}
+
+.logo{
+    float: left;
+    padding-left: 10px;
+    height: 50px;
+    margin: auto;
+}
+.nav{
+    float: right;
+    
+}
+.nav a{
+    text-decoration: underline;
+    display: inline-flex;
+    align-items: center
+}
+.nav a li{
+    display: table-cell;
+    height: 100%;
+    margin: auto 10px;
+    align-items: center;
+    color: white;
+}
+
+.background{
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.text{
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#feature{
+    padding-top: 70px;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.table img{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#location {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    padding-top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.local{
+    background-color: black;
+    text-align: center;
+    height: auto;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+h6{
+    text-align: left;
+}
